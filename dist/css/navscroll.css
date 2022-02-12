@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+}
+
+body nav {
+  background-color: #030303;
+  padding: 10px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: capitalize;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+body nav a {
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  padding: 4px 10px;
+  margin: 0 10px;
+  border-radius: 3px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+body nav a.active {
+  background-color: #29c0b8;
+}
+
+body main {
+  width: 100%;
+}
+
+body main div {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: capitalize;
+  font-size: 40px;
+  color: white;
+}
+
+body main div h1 {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  opacity: 0;
+}
+
+body main div:nth-child(1) {
+  background-color: #3a3a3a;
+}
+
+body main div:nth-child(2) {
+  background-color: #5a5a5a;
+}
+
+body main div:nth-child(3) {
+  background-color: #acacac;
+}
+
+body main div:nth-child(4) {
+  background-color: #3b3b3b;
+}
+/*# sourceMappingURL=navscroll.css.map */
